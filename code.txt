@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undone | Personal Data Sheet</title>
+  </head>
+  <body>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px; 
+            box-sizing: border-box;
+        }
+        .PDS{
+            max-width: 90%;    
+            margin: 0 auto; 
+            margin-top: 10%;
+            border: 2px solid black;
+        }  
+        .PDS, table{
+             border-collapse: collapse;
+        }
+        input{
+           width: 100%; 
+           font-size: 14px;          
+           border: none;
+        }
+        ::placeholder{
+             color: black;
+         } 
+         *:focus {
+         outline: none;
+            } 
+    
+      .body {
+          border: 1px solid black;
+       }
+        
+       td{
+            border: 1px solid black;
+        }
+
+      .rowHead{
+          border: none;
+        }
+      .table3{
+            border: none;
+        }     
+     
+    </style>
+    <table class="PDS">
+      <thead" class="head">
+      <tr >
+        <td colspan="12" class="rowHead">CS Form No. 212</td>     
+      </tr> 
+      <tr>
+        <td colspan="12" class="rowHead">Revised 2017</td>
+      </tr >
+      <tr >
+        <td colspan="12" style="text-align: center; font-size: 48px; font-weight: 700;" class="rowHead">PERSONAL DATA SHEET</td> 
+      </tr>
+      <tr  >
+        <td colspan="12" class="rowHead">
+          WARNING: Any misrepresentation made in the Personal Data Sheet and the
+          Work Experience Sheet shall cause the filing of
+          administrative/criminal case/s against the person concerned
+        </td>
+      </tr>
+      <tr >
+        <td colspan="12" class="rowHead">
+          READ THE ATTACHED GUIDE TO FILLING OUT THE PERSONAL DATA SHEET (PDS)
+          BEFORE ACCOMPLISHING THE PDS FORM.
+        </td>
+      </tr>
+      <tr >
+        <td class="rowHead">          
+            <table style="width: 16em;" >
+                <tr>
+                    <td style="font-size: 14px;" class="rowHead"> Print legibly. Tick appropriate boxesdd</td>
+                    <td style="width: 1em; border: 1px solid black;"></td>
+                </tr>
+            </table>
+        </td>
+
+
+        <td style="font-size: 14px" class="rowHead">and use separate sheet if necessary. Indicate N/A if not applicable. <span style="font-size: 16px;" >DO NOT ABBREVIATE.</span></td>
+        <td style="border:2px solid black;">1. CS ID No.</td>
+        <td style="border:2px solid black; width: 18em;">
+            <input type="text" placeholder="(Do not fill up. For CSC use only)" style="text-align: end;">
+        </td>
+      </tr>
+      </thead>
+
+      <tbody class="body">
+        <tr >
+            <td colspan="4">I Personal information</td>
+        </tr>
+         <tr >
+            <td class="table2" style= "border: none ;">
+                <table style="width:100% ; border: none ;">
+                    <tr>
+                        <td ">2. SURNAME</td>
+                    </tr>
+                    <tr>
+                        <td ">FIRST NAME</td>
+                    </tr >
+                    <tr>
+                        <td ">LAST NAME</td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="4" style= "border: none ;">
+                <table style="width:100%;">
+                    <tr>
+                        <td colspan="2"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" ><input type="text"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+      </tbody>
+     
+    </table>
+  </body>
+</html>
